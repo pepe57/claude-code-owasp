@@ -475,7 +475,7 @@ def check_permission(user, resource):
 
 ## OWASP ASVS 5.0.0
 
-The Application Security Verification Standard (ASVS) 5.0.0 was released May 30, 2025. It provides ~350 security requirements across 17 categories with three verification levels.
+The Application Security Verification Standard (ASVS) 5.0.0 was released May 30, 2025. It provides approximately 350 security requirements across 17 categories (the exact total varies by verification level) with three verification levels.
 
 ### Verification Levels
 
@@ -538,10 +538,10 @@ Released December 2025, this framework addresses security risks specific to AI a
 
 | ID | Risk | Description |
 |----|------|-------------|
-| ASI01 | Agent Goal Hijack | Prompt injection alters agent's core objectives |
+| ASI01 | Agent Goal Hijacking | Prompt injection alters agent's core objectives |
 | ASI02 | Tool Misuse | Legitimate tools used in unintended/unsafe ways |
 | ASI03 | Identity & Privilege Abuse | Credential escalation across agent interactions |
-| ASI04 | Supply Chain Vulnerabilities | Compromised plugins, MCP servers, or dependencies |
+| ASI04 | Agentic Supply Chain Vulnerabilities | Compromised plugins, MCP servers, or dependencies |
 | ASI05 | Unexpected Code Execution | Unsafe code generation or execution by agents |
 | ASI06 | Memory & Context Poisoning | Manipulation of RAG systems or agent memory |
 | ASI07 | Insecure Inter-Agent Communication | Spoofing or tampering between agent systems |
@@ -551,7 +551,7 @@ Released December 2025, this framework addresses security risks specific to AI a
 
 ---
 
-### ASI01: Agent Goal Hijack
+### ASI01: Agent Goal Hijacking
 
 **Description:** Attackers use prompt injection to alter an agent's intended goals, making it serve malicious purposes while appearing to function normally.
 
@@ -608,7 +608,7 @@ Released December 2025, this framework addresses security risks specific to AI a
 
 ---
 
-### ASI04: Supply Chain Vulnerabilities
+### ASI04: Agentic Supply Chain Vulnerabilities
 
 **Description:** Compromised plugins, MCP servers, or third-party integrations introduce vulnerabilities into agent systems.
 
